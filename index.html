@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Pizzeria</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    </head>
+    <body>
+                    <ul class="menu">
+                    <li class="links"><a href="#view">View Menu</a></li>
+                    <li class="links"><a href="#suggest">Suggest Topping</a></li>
+                </ul>
+        <center>
+        <section id="view">
+            <h1 class="text-capitalize">View Menu</h1>
+            <img src="https://th.bing.com/th/id/R.f74cb12c59335e90a3ddbe88453ac329?rik=NGeGwmKS%2bovvCg&riu=http%3a%2f%2feverydaydishes.com%2fwp-content%2fuploads%2f2016%2f12%2fMini-Pizzas-Recipe-B1-RES.jpg&ehk=F9MHmveO1HekFegXmZ2YgKRNuI2HLXS4vn5q7HA86cs%3d&risl=&pid=ImgRaw&r=0"
+           <div>
+               <button id="view-menu" onclick="viewmenu()">View Menu</button>
+           </div>
+           <div>
+               <p id="p">
+
+               </p>
+           </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <section id="suggest">
+            <h2 class="text-capitalize">
+                Suggest Topping
+            </h2>
+            <input type="text" id="input1" placeholder="Enter a Suggestion">
+            <br>
+            <div>
+            <button id="suggest_button" onclick="suggestion()">Add Suggestion</button>
+            <br>
+            </div>
+            <div>
+            <button id="pizzabutton" onclick="pizza()">Show Pizza</button>
+            <br>
+            </div>
+            <div>
+                <p id="fg"></p>
+            </div>
+        </section>
+        </center>
+    </body>
+</html>

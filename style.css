@@ -1,0 +1,38 @@
+body{
+    text-align:center;
+    color: red;
+}
+#view-menu{
+    height: 75px;
+    width: 130px;
+    background-color:yellow;
+}
+img{
+    height:175px;
+    width:175px;
+} 
+.menu{
+    list-style: none;
+       font-family: cursive;
+       position: absolute;
+       top: 10px;
+       right: 30px;
+       cursor: pointer;
+   }
+.links {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+   }
+   
+   .links:hover {
+       background-color: darkgray;
+   }
+   #suggest_button{
+       background-color:greenyellow;
+   }
+   #pizzabutton{
+       background-color:red;
+   }
